@@ -8,7 +8,7 @@ Pachuino p;
 
 void setup(){   
     p = new Pachuino(this, Arduino.list()[1], 57600);   
-    p.manualUpdate("http://www.pachube.com/api/35451.xml"); // change URL -- this is the feed you want to update
+    p.manualUpdate("http://www.pachube.com/api/35451.xml"); 
     p.setKey("GBS3k0F-wFU_1XbjiYMry-cf-sb38LASl2-scnFVPEU");   
 
    
